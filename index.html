@@ -1,0 +1,148 @@
+
+
+<!--
+    Michael Kellems
+    CIT 215
+    Prof. Kane
+    10/27/24
+-->
+
+<script src = "lib/jquery-3.7.1.js" defer></script>
+<script src = "script.js" defer></script>
+<link href = "style.css" rel = "stylesheet" defer></link>
+
+
+<html>
+    <header>
+        <h1 class = "display"> Welcome to Michael's Chocolate Factory</h1>
+    </header>
+    <body>
+
+        <button class = "mainbutton" onclick = "prizeChocolate()"> Pick a random free sample.</button>
+        <div class = "content">
+            <div class = "card" id = "card1">
+                <h2>Plain Milk<button class = "toggle" onclick = "toggleFaqSheet(1)"> Toggle FAQ</button> </h2>
+                <img src = "assets/plain_milk.jpg"> </img>
+                <div class = "faqsheet1" id = "faqsheet">
+                    <ul>
+                        <li class = "Description">Smooth milk chocolate.</li>
+                        <li class = "Calories">Calories: 90</li>
+                        <li class = "Ingredients">Ingredients: Cocoa butter, Milk, Cream</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class = "card" id = "card2">
+                <h2>Plain Dark<button class = "toggle" onclick = "toggleFaqSheet(2)"> Toggle FAQ</button> </h2>
+                <img src = "assets/plain_dark.jpg"> </img>
+                <div class = "faqsheet2" id = "faqsheet">
+                    <ul>
+                        <li class = "Description">Smooth milk chocolate</li>
+                        <li class = "Calories">Calories: 90</li>
+                        <li class = "Ingredients">Ingredients: Cocoa butter, Milk, Cream</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class = "card" id = "card3">
+                <h2>Bailey's Cup<button class = "toggle" onclick = "toggleFaqSheet(3)"> Toggle FAQ</button> </h2>
+                <img src = "assets/baileys_cup.jpg"> </img>
+                <div class = "faqsheet3" id = "faqsheet">
+                    <ul>
+                        <li class = "Description">Dark chocolate with Bailey's cream filling</li>
+                        <li class = "Calories">Calories: 100</li>
+                        <li class = "Ingredients">Ingredients: Cocoa butter, Milk, Cream, Bailey's</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class = "card" id = "card4">
+                <h2>Cappucino Cup<button class = "toggle" onclick = "toggleFaqSheet(4)"> Toggle FAQ</button> </h2>
+                <img src = "assets/cappuccino_cup.jpg"> </img>
+                <div class = "faqsheet4" id = "faqsheet">
+                    <ul>
+                        <li class = "Description">Dark chocolate with Cappuccino style cream filing.</li>
+                        <li class = "Calories">Calories: 120</li>
+                        <li class = "Ingredients">Ingredients: Cocoa butter, Milk, Cream, Cappuccino fondant</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class = "card" id = "card5">
+                <h2>Nutter Butter<button class = "toggle" onclick = "toggleFaqSheet(5)"> Toggle FAQ</button> </h2>
+                <img src = "assets/nutter_butter.jpg"> </img>
+                <div class = "faqsheet5" id = "faqsheet">
+                    <ul>
+                        <li class = "Description">Dark chocolate with peanut butter</li>
+                        <li class = "Calories">Calories: 190</li>
+                        <li class = "Ingredients">Ingredients: Cocoa butter, Milk, Cream, Peanut Butter</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class = "card" id = "card6">
+                <h2>Orange Fondant<button class = "toggle" onclick = "toggleFaqSheet(6)"> Toggle FAQ</button> </h2>
+                <img src = "assets/orange_fondant.jpg"> </img>
+                <div class = "faqsheet6" id = "faqsheet">
+                    <ul>
+                        <li class = "Description">Dark chocolate folded with orange fondant</li>
+                        <li class = "Calories">Calories: 90</li>
+                        <li class = "Ingredients">Ingredients: Cocoa butter, Milk, Cream, Orange Peel, Orange Fondant</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class = "card" id = "card7">
+                <h2>Pistachio Cup<button class = "toggle" onclick = "toggleFaqSheet(7)"> Toggle FAQ</button> </h2>
+                <img src = "assets/pistachio_diamond.jpg"> </img>
+                <div class = "faqsheet7" id = "faqsheet">
+                    <ul>
+                        <li class = "Description">Dark chocolate with nuggets of pistachio</li>
+                        <li class = "Calories">Calories: 90</li>
+                        <li class = "Ingredients">Ingredients: Cocoa butter, Milk, Cream, Chunks of Pistachio Nut</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class = "card" id = "card8">
+                <h2>Rum Barrel<button class = "toggle" onclick = "toggleFaqSheet(8)"> Toggle FAQ</button> </h2>
+                <img src = "assets/rum_barrel.jpg"> </img>
+                <div class = "faqsheet8" id = "faqsheet">
+                    <ul>
+                        <li class = "Description">Dark chocolate with decadent rum filling</li>
+                        <li class = "Calories">Calories: 90</li>
+                        <li class = "Ingredients">Ingredients: Cocoa butter, Milk, Cream. Rum Past, and Rum Flavoring</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class = "card" id = "card9">
+                <h2>Toffee Crunch<button class = "toggle" onclick = "toggleFaqSheet(9)"> Toggle FAQ</button> </h2>
+                <img src = "assets/toffee_crunch.jpg"> </img>
+                <div class = "faqsheet9" id = "faqsheet">
+                    <ul>
+                        <li class = "Description">Dark chocolate with brittle toffee candy</li>
+                        <li class = "Calories">Calories: 90</li>
+                        <li class = "Ingredients">Ingredients: Cocoa butter, Milk, Cream</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class = "card" id = "card10">
+                <h2>Plain Supreme<button class = "toggle" onclick = "toggleFaqSheet(10)"> Toggle FAQ</button> </h2>
+                <img src = "assets/plain_hybrid.jpg"> </img>
+                <div class = "faqsheet10" id = "faqsheet">
+                    <ul>
+                        <li class = "Description">Dark chocolate with slivers of milk chocolate.</li>
+                        <li class = "Calories">Calories: 90</li>
+                        <li class = "Ingredients">Ingredients: Cocoa butter, Milk, Cream</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+
+    <footer>
+        <h4>  Made by <span>Michael Kellems</span></h4>
+    </footer>
+</html>

@@ -1,0 +1,84 @@
+/*
+    Michael Kellems
+    CIT 215
+    Prof. Kane
+    10/27/24
+*/
+#faqsheet{
+    background-color: gray;
+    height:150px;
+    width:100%;
+    position:absolute;
+    margin-top: -155px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    opacity: 0;
+}
+
+img{
+    margin-left:25%;
+    width:50%;
+    height:150px;
+    opacity: .75;
+    box-sizing: border-box;
+    margin-bottom:5px;
+}
+
+.toggle{
+    height: 20px;
+    width: 20%;
+    margin-left:80%;
+}
+
+.mainbutton{
+    background-color: sienna;
+    border: 2px solid black;
+    border-radius: 2px;
+    width:100%;
+}
+
+h2{
+    height:50px;
+    background-color: sienna;
+    margin:0px;
+    text-align: center;
+}
+
+.card{
+    position: relative;
+    height: 200px;
+    width:100%;
+    border: 2px solid black;
+    background-color: white;
+    border-radius:5px;
+    margin: 10px;
+}
+
+.display{
+    text-decoration: underline;
+    text-align: center;
+    height: 50px;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.content{
+    height: 70%;
+    width: 100%;
+    box-sizing: border-box;
+    overflow-y: scroll;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 10px;
+}
+
+footer{
+    height:45px;
+    text-align: center;
+    border-top: 2px solid sienna;
+    box-sizing: border-box;
+}
+
+span{
+    text-decoration: underline;
+}
